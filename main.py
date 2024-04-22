@@ -35,7 +35,7 @@ async def send_message():
         if current_time.hour == 10 and current_time.minute == 0:
             await bot.send_message(GROUP_ID,
                                    f"ВНИМАНИЕ! \n"
-                                   f"Еще одно сообещние \n"
+                                   f"Еще одно сообщение \n"
                                    )
         if current_time.hour == 22 and current_time.minute == 0:
             await bot.send_message(GROUP_ID,
